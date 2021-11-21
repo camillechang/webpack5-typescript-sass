@@ -1,0 +1,17 @@
+{
+  //use React and Typescript presets and to transpile to a minimum version of IE 11 and Chrome 58.
+  "presets": [
+    "@babel/react",
+    "@babel/typescript",
+    [
+      "@babel/env",
+      {
+        "modules": false,
+        "targets": {
+          "chrome": "58",
+          "ie": "11"
+        }
+      }
+    ]
+  ]
+}
