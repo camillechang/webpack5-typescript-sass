@@ -1,11 +1,14 @@
 {
+  "homepage": "http://www.camillechang.com/webpack5-typescript-sass/",
   "name": "react-ts-blog",
   "version": "1.0.0",
   "description": "",
   "private": "true",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d build"
+
   },
   "keywords": [],
   "author": "",
@@ -27,6 +30,7 @@
     "copy-webpack-plugin": "^10.0.0",
     "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.4.5",
     "node-sass": "^6.0.1",
