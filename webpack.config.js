@@ -10,9 +10,10 @@ const config = {
     index: './src/index.tsx',
   },
   output: {
-    path: "/",
-    filename: 'bundle.js',
+    publicPath: "/",
+    publicPath: '/webpack5-typescript-sass/',
   },
+
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
