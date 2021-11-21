@@ -1,0 +1,14 @@
+{
+  //set up a configuration to support JSX and
+  // compile TypeScript down to ES5...
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true, //  configure TypeScript to output inline source maps to our compiled JavaScript files.
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
+  }
+}
